@@ -11,6 +11,7 @@ export function renderFoodItem(food){
     const foodItem = document.createElement('li');
     foodItem.classList.add('food-item');
     foodItem.id = food.id;
+    foodItem.length = food.length;
 
     const img = document.createElement('img');
     img.src = food.img;
